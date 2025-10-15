@@ -50,7 +50,6 @@ python3 google_dork_scanner.py --dorks dorks.txt --output dork_results.txt --max
 ## Notes & Security
 
 * The script rotates through `API_KEYS` to avoid single-key rate limits. Be mindful of quotas and billing on your Google Cloud project.
-* Do not commit API keys to public repositories. Use environment variables or a secrets manager for production.
 * Use this tool responsibly and only against targets you are authorized to test.
 
 ---
